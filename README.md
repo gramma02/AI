@@ -1,1 +1,1 @@
-Some of the Python Projects presented with the Jupyter Notebook Format
+Some of the Python Projects presented with the Jupyter Notebook Format, 2023
