@@ -1,0 +1,24 @@
+# Python and notebook artifacts
+**/.venv/
+**/__pycache__/
+**/.ipynb_checkpoints/
+*.py[cod]
+.DS_Store
+*.h5
+*.keras
+*.zip
+*.log
+# Local datasets with unknown redistribution terms
+medical-cost-regression/data/*.csv
+model-comparison/data/*.csv
+bankruptcy-pca/data/*.xlsx
+bankruptcy-classification/data/*.xlsx
+# Regenerable synthetic outputs
+accommodation-matrix-factorization/synthetic_airbnb_*.csv
+# Temporary verification outputs
+validation-output/
+# Local curation records and backups
+.curation/
+
+# Keep all dataset folders out of the published repository
+**/data/
